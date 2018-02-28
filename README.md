@@ -10,6 +10,7 @@ After add-on:
 ![after](After.png)
 
 ## Release Notes
+### v1.4
 * minor bug fix
 * size reduction
 
