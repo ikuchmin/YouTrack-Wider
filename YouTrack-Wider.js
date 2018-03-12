@@ -52,9 +52,11 @@ $( document ).ready(function() {
 
 	var app = "";
 	var loop = 1;
+	var skip = 50
 
 	var appExists = setInterval(function() {
-		if (loop > 3)
+		console.log(loop);
+		if (loop > skip)
 		{
 			clearInterval(appExists);
 			oldTheme();
