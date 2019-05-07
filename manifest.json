@@ -15,7 +15,7 @@
   },
   "content_scripts": [
     {
-      "matches": ["https://youtrack/*", "https://youtrack.quadient.group/*", "*://*/youtrack*"],
+      "matches": ["https://youtrack*/*", "https://youtrack.quadient.group/*", "*://*/youtrack*"],
       "js": ["jquery-3.2.1.min.js", "YouTrack-Wider.js"]
     }
   ]
